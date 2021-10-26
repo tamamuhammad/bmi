@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI</title>
+    <link rel="shortcut icon" href="bmi.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>BODY MASS INDEX</h1>
+        </div>
+        <div class="input">
+            <form action="" class="form">
+                <div class="form-group">
+                    <label for="bb">Berat Badan(kg)</label>
+                    <input type="number" placeholder="exp. 45" id="bb" autocomplete='off'>
+                </div>
+                <div class="form-group">
+                    <label for="tb">Tinggi Badan(cm)</label>
+                    <input type="number" placeholder="exp. 170" id="tb" autocomplete='off'>
+                </div>
+            </form>
+            <button type="submit" class="submit">SUBMIT</button>
+        </div>
+        <div id="hasil">
+            <div id="bmi">
+                <h3>BMI</h3>
+                <span class="bmi">0</span>
+            </div>
+            <div id="bmi-hasil">
+                <h3>HASIL</h3>
+                <span class="bmi-hasil">Hasil akan tampil disini</span>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <p class="footer">Copyright &copy 2021 <a href="https://fb.com/mukhtaz67" target="_blank">Tamam Muhammad</a></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
